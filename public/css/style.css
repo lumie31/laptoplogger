@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  height: 100%;
+}
+
+div.main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: url("../images/code-wallpaper-3.jpg");
+}
+
+div.content {
+  margin-left: 70px;
+}
+
+.h2 {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 5rem 0 2rem 0;
+  color: #35464f;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: white;
+}
+
+p {
+  margin-bottom: 25px;
+  color: white;
+}
+
+div.input {
+  margin-bottom: 20px;
+}
+
+div.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+div.input input {
+  margin-right: 20px;
+}
+
+.button {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.text {
+  color: white;
+}
+
+.route-header {
+  color: #35464f;
+  font-size: 1.5rem;
+}
+
+#contain {
+  width: 100%;
+  margin: auto;
+}
+
+#first {
+  width: 50%;
+  float: left;
+  height: 300px;
+}
+
+#second {
+  width: 50%;
+  float: left;
+  height: 300px;
+}
+
+#clear {
+  clear: both;
+}
+
+.Main {
+  display: flex;
+  min-height: 100vh;
+}
+.Main__routes {
+  min-height: 100vh;
+  flex: 1 1 0;
+  padding: 5rem 0 0 3rem;
+}

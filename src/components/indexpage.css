@@ -1,0 +1,6 @@
+.IndexPage {
+  background: url("/images/code-wallpaper-3.jpg");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
